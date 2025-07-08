@@ -28,9 +28,9 @@ class Feedback(SqlAlchemyBase):
         positive = 0
         negative = 0
         for word in self.text.split():
-            if any([x in word for x in ["хорош", "неплох", "спасиб", "люб"]]):
+            if any([x in word.lower() for x in ["хорош", "неплох", "спасиб", "люб"]]):
                 positive += 1
-            if any([x in word for x in ["плох", "проблем", "ужас", "ненавид", "неудовлетвор"]]):
+            if any([x in word.lower() for x in ["плох", "проблем", "ужас", "ненавид", "неудовлетвор"]]):
                 negative += 1
         if negative > positive:
             sentiment = "negative"
