@@ -6,6 +6,8 @@
 - **SQLite**
 - **uv**(я использую uv, поэтому тут и появлися pyprojet.toml)
 
+### Есть json с API в формате [openapi.json](https://github.com/An4nasik/ucartesttask/blob/master/openapi.json) если не хочеться запускать сам проект
+
 ## Установка и запуск
 
 1.  **Клонируйте репозиторий:**
