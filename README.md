@@ -4,6 +4,7 @@
 - **SQLAlchemy**
 - **Pydantic**
 - **SQLite**
+- **uv**(я использую uv, поэтому тут и появлися pyprojet.toml)
 
 ## Установка и запуск
 
